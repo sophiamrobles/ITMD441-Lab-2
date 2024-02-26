@@ -88,7 +88,7 @@
 #grid-section3 .grid {
 	display:grid;
 	gap:10px;
-	grid-template-columns: 1fr, 2fr;
+	grid-template-columns: 1fr 2fr;
 	grid-template-rows: 100px 300px 100px;
 }
 
