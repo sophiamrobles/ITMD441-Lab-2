@@ -40,11 +40,17 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #flex-section3 .tags ul {
-
+	display:flex;
+	list-style: none;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding:0;
 }
 
 /* end Flexbox Part 3 */
