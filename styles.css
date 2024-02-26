@@ -59,7 +59,10 @@
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-
+	display: grid;
+	gap:20px;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: 100px;
 }
 
 /* end Grid Part 1 */
@@ -68,11 +71,13 @@
 /* Grid Part 2 */
 
 #grid-section2 .gridboxblue {
-
+	grid-area:1/2/4/4;
+	z-index: 2;
 }
 
 #grid-section2 .gridboxred {
-
+	grid-area: 2/1/3/3;
+	z-index:1;
 }
 
 /* end Grid Part 2 */
@@ -81,7 +86,7 @@
 /* Grid Part 3 */
 
 #grid-section3 .grid {
-
+s
 }
 
 #grid-section3 .box1 {
@@ -97,7 +102,6 @@
 }
 
 #grid-section3 .box4 {
-
 }
 
 /* end Grid Part 3 */
