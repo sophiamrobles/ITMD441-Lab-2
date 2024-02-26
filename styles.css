@@ -3,8 +3,8 @@
 #flex-section1 ul {
 	display: flex;
 	justify-content: space-between;
-	padding: 0;
 	list-style: none;
+	padding: 0;
 }
 
 /* end Flexbox Part 1 */
@@ -13,7 +13,10 @@
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-
+	display:flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
 }
 
 #flex-section2 li {
